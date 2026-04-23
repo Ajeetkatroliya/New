@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="firstnum">A</h1>
+    <h2 id="secondnum">B</h2>
+    <h1 id="result">result</h1>
+    <script>
+        let a=10
+        let b=30
+
+
+        let c
+        c=a+b
+        console.log("value of a: "+a)
+        console.log("value of b: "+b)
+        console.log("sum of a and b :"+c)
+        d=a*b
+        console.log("multiplication of values:"+d)
+
+        e=a-b
+        console.log("subraction of values:"+e)
+
+        document.getElementById("firstnum").innerHTML="value of A:"+a
+        document.getElementById("secondnum").innerHTML="value of B:"+b
+        document.getElementById("result").innerHTML="sum:"+c
+        document.getElementById("result").innerHTML="subtraction:"+e
+
+
+
+    </script>
+</body>
+</html>
